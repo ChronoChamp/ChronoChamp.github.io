@@ -1,2 +1,3 @@
-# ChronoChamp.github.io
-Aldrick Joves Amparo's Personal Website
+# Aldrick Joves Amparo's Personal Website
+
+This website is currently under construction. Come back later!

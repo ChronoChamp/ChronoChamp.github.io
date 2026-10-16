@@ -1,14 +1,81 @@
+@font-face {
+  font-family: "Arvo";
+  src: url("fonts/Arvo-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ArvoB";
+  src: url("fonts/Arvo-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ArvoBI";
+  src: url("fonts/Arvo-BoldItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "ArvoI";
+  src: url("fonts/Arvo-Italic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
-  --bg: #8faed6;
+  --bg: #bbd4f4;
   --text: #0f172a;
+  --constructiontext: #540606;
+  --link: #171c28;
 }
 
 :root[data-theme="dark"] {
   --bg: #010f26;
   --text: #e2e8f0;
+  --constructiontext:rgb(240, 78, 78);
+  --link: #999bbd;
+}
+
+.hey_there {
+    color: var(--text);
+    font-family: "ArvoB", serif;
+}
+
+h3 {
+    color: var(--text);
+    font-family: "ArvoB", serif;
 }
 
 body {
   background: var(--bg);
   color: var(--text);
+  font-family: "Arvo", serif;
+}
+
+.UNDER_CONSTRUCTION {
+    font-family: "ArvoB", serif;
+    color: var(--constructiontext);
+}
+
+#top {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#top img {
+    width: 200px;
+    max-width: 100%;
+}
+
+a {
+    color: var(--link);
 }
